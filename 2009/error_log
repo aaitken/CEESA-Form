@@ -1,0 +1,49 @@
+[08-Oct-2009 21:01:45] PHP Parse error:  syntax error, unexpected T_STRING in /home/alexma2/public_html/zDJS/2009/chayo.php on line 7
+[08-Oct-2009 21:08:54] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/alexma2/public_html/zDJS/2009/chayo.php on line 5
+[08-Oct-2009 21:16:03] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/alexma2/public_html/zDJS/2009/chayo.php on line 5
+[08-Oct-2009 21:16:41] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/alexma2/public_html/zDJS/2009/chayo.php on line 5
+[08-Oct-2009 21:17:08] PHP Parse error:  syntax error, unexpected T_STRING in /home/alexma2/public_html/zDJS/2009/chayo.php on line 5
+[08-Oct-2009 21:17:37] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/alexma2/public_html/zDJS/2009/chayo.php on line 5
+[08-Oct-2009 21:18:06] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/alexma2/public_html/zDJS/2009/chayo.php on line 5
+[08-Oct-2009 21:18:51] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/alexma2/public_html/zDJS/2009/chayo.php on line 5
+[08-Oct-2009 21:19:26] PHP Parse error:  syntax error, unexpected ',' in /home/alexma2/public_html/zDJS/2009/chayo.php on line 5
+[08-Oct-2009 21:43:00] PHP Parse error:  syntax error, unexpected '.' in /home/alexma2/public_html/zDJS/2009/chayo.php on line 5
+[08-Oct-2009 21:43:45] PHP Parse error:  syntax error, unexpected '.' in /home/alexma2/public_html/zDJS/2009/chayo.php on line 5
+[13-Oct-2009 21:19:23] PHP Parse error:  syntax error, unexpected '@' in /home/alexma2/public_html/zDJS/2009/chayo.php on line 18
+[13-Oct-2009 21:32:08] PHP Parse error:  syntax error, unexpected $end in /home/alexma2/public_html/zDJS/2009/chayo.php on line 275
+[13-Oct-2009 21:37:10] PHP Parse error:  syntax error, unexpected $end in /home/alexma2/public_html/zDJS/2009/chayo.php on line 275
+[13-Oct-2009 21:50:20] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/alexma2/public_html/zDJS/2009/chayo.php:2) in /home/alexma2/public_html/zDJS/2009/chayo.php on line 4
+[13-Oct-2009 21:50:20] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/alexma2/public_html/zDJS/2009/chayo.php:2) in /home/alexma2/public_html/zDJS/2009/chayo.php on line 4
+[13-Oct-2009 21:50:20] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/alexma2/public_html/zDJS/2009/chayo.php:2) in /home/alexma2/public_html/zDJS/2009/chayo.php on line 4
+[13-Oct-2009 21:50:20] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/alexma2/public_html/zDJS/2009/chayo.php:2) in /home/alexma2/public_html/zDJS/2009/chayo.php on line 4
+[13-Oct-2009 21:50:37] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home/alexma2/public_html/zDJS/2009/chayo.php:2) in /home/alexma2/public_html/zDJS/2009/chayo.php on line 4
+[13-Oct-2009 21:50:37] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/alexma2/public_html/zDJS/2009/chayo.php:2) in /home/alexma2/public_html/zDJS/2009/chayo.php on line 4
+[14-Oct-2009 15:09:43] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home/alexma2/public_html/zDJS/2009/chayo_2.php on line 12
+[14-Oct-2009 16:26:04] PHP Parse error:  syntax error, unexpected T_LNUMBER in /home/alexma2/public_html/zDJS/2009/chayo_2.php on line 25
+[14-Oct-2009 16:46:33] PHP Parse error:  syntax error, unexpected T_VARIABLE in /home/alexma2/public_html/zDJS/2009/chayo_2.php on line 63
+[20-Oct-2009 14:56:35] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/alexma2/public_html/zDJS/2009/test.php on line 2
+[20-Oct-2009 15:14:21] PHP Parse error:  syntax error, unexpected '=' in /home/alexma2/public_html/zDJS/2009/test.php on line 3
+[20-Oct-2009 15:14:50] PHP Parse error:  syntax error, unexpected $end in /home/alexma2/public_html/zDJS/2009/test.php on line 33
+[20-Oct-2009 15:15:50] PHP Parse error:  syntax error, unexpected $end in /home/alexma2/public_html/zDJS/2009/test.php on line 33
+[20-Oct-2009 15:15:51] PHP Parse error:  syntax error, unexpected $end in /home/alexma2/public_html/zDJS/2009/test.php on line 33
+[20-Oct-2009 15:16:24] PHP Parse error:  syntax error, unexpected $end in /home/alexma2/public_html/zDJS/2009/test.php on line 33
+[20-Oct-2009 15:16:26] PHP Parse error:  syntax error, unexpected $end in /home/alexma2/public_html/zDJS/2009/test.php on line 33
+[20-Oct-2009 15:30:30] PHP Fatal error:  Cannot use [] for reading in /home/alexma2/public_html/zDJS/2009/test.php on line 2
+[20-Oct-2009 15:39:00] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/alexma2/public_html/zDJS/2009/test.php on line 32
+[20-Oct-2009 15:39:30] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/alexma2/public_html/zDJS/2009/test.php on line 32
+[20-Oct-2009 17:55:49] PHP Parse error:  syntax error, unexpected T_ELSE in /home/alexma2/public_html/zDJS/2009/index3.php on line 70
+[20-Oct-2009 17:58:42] PHP Parse error:  syntax error, unexpected '"', expecting ']' in /home/alexma2/public_html/zDJS/2009/index3.php on line 59
+[20-Oct-2009 18:03:55] PHP Fatal error:  Cannot use [] for reading in /home/alexma2/public_html/zDJS/2009/index3.php on line 59
+[20-Oct-2009 18:23:52] PHP Parse error:  syntax error, unexpected '"', expecting ';' in /home/alexma2/public_html/zDJS/2009/index3.php on line 62
+[20-Oct-2009 18:24:43] PHP Parse error:  syntax error, unexpected T_ELSE in /home/alexma2/public_html/zDJS/2009/index3.php on line 76
+[20-Oct-2009 18:43:58] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/alexma2/public_html/zDJS/2009/index3.php on line 388
+[20-Oct-2009 18:44:51] PHP Parse error:  syntax error, unexpected ';', expecting ']' in /home/alexma2/public_html/zDJS/2009/index3.php on line 388
+[22-Oct-2009 16:45:08] PHP Parse error:  syntax error, unexpected '.' in /home/alexma2/public_html/zDJS/2009/index3.php on line 106
+[22-Oct-2009 16:45:36] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/alexma2/public_html/zDJS/2009/index3.php on line 106
+[22-Oct-2009 16:46:09] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/alexma2/public_html/zDJS/2009/index3.php on line 106
+[22-Oct-2009 16:48:03] PHP Parse error:  syntax error, unexpected T_VAR in /home/alexma2/public_html/zDJS/2009/index3.php on line 101
+[22-Oct-2009 16:49:23] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/alexma2/public_html/zDJS/2009/index3.php on line 105
+[22-Oct-2009 16:52:51] PHP Parse error:  syntax error, unexpected T_ENCAPSED_AND_WHITESPACE, expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/alexma2/public_html/zDJS/2009/index3.php on line 105
+[22-Oct-2009 17:02:02] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /home/alexma2/public_html/zDJS/2009/index3.php on line 105
+[22-Oct-2009 17:02:45] PHP Parse error:  syntax error, unexpected '.' in /home/alexma2/public_html/zDJS/2009/index3.php on line 105
+[22-Oct-2009 17:02:52] PHP Parse error:  syntax error, unexpected '.' in /home/alexma2/public_html/zDJS/2009/index3.php on line 105

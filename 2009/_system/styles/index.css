@@ -1,0 +1,84 @@
+/*
+UI CUSTOMIZATIONS
+*/
+.ui-widget { font-family: Arial,sans-serif/*{ffDefault}*/; font-size: 1.1em/*{fsDefault}*/; }
+.ui-widget input{ font-size:90%;padding:.3em}
+#tabs.ui-corner-all,
+#ama-tabs.ui-corner-all{/*ui.theme.css - line 241*/
+	 -moz-border-radius: 0px/*{cornerRadius}*/; -webkit-border-radius: 0px/*{cornerRadius}*/;
+}
+#ama-tabs.ui-corner-all{/*ui.theme.css - line 241*/
+	border-top: 0px solid #AAAAAA;
+	border-right: 0px solid #AAAAAA;
+	border-left: 0px solid #AAAAAA;
+}
+#ama-tabs.ui-widget-header{/*ui.theme.css - line 17*/
+	background:url(/zDJS/2009/_system/images/ama-ui-bg_highlight-soft_75_cccccc_1x102.png)
+}
+.ama-tabs .ui-tabs-panel{/*ui.tabs.css - line 10*/
+	padding-top:2em;
+}
+#tabs.ui-tabs{/*ui.tabs.css - line 3*/
+	padding:0;
+}
+#tabs.ui-widget-content {/*ui.theme.css - line 15*/
+	border: 0px solid #aaaaaa/*{borderColorContent}*/; 
+}
+.ama-toggle{
+	padding:.2em .4em;
+}
+
+/*
+GLOBAL ELEMENTS
+*/
+body{
+	font-size:13px;
+	line-height:134%;
+}
+h1{
+	position:absolute;
+	z-index:1000;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:140%;
+	padding:25px 0px 0px 18px;
+	color:#666;
+	letter-spacing:2px;
+}
+p{
+	padding-bottom:35px;
+}
+label{
+	font-weight:bold;
+	color:#666;
+}
+
+/*
+GLOBAL SELECTEES
+*/
+#ama-tabs{
+	padding-top:65px;
+}
+
+/*
+TABS
+*/
+/*1*/
+.ama-tab1Fields{
+	width:400px;
+	margin:2px 0px 11px 0px;
+}
+.ama-tab1LastField{
+	margin:2px 0px 30px 0px;
+}
+.ama-tab1toggleLabel{
+	padding:5px 12px 15px 0px;
+	float:left;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,177 @@
+/*
+UI CUSTOMIZATIONS
+*/
+.ama-toggle{padding:.5em .6em;}
+b.fg-button{font-size:100%;padding:.35em .6em;margin-top:1px;float:left}
+
+
+dl{position:relative}
+		#step1 .dropdown input,
+		#step2 .dropdown input{border:0px;margin-left:1px}
+		#step1 .dropdown input{width:125px;}
+		#step1 .dropdown dt a{width:128px}
+		#step1 .dropdown dd ul{min-width:148px}
+		#step2 .dropdown input{width:137px;}
+		#step2 .dropdown dt a{width:140px;}
+		#step2 .dropdown dd ul{min-width:160px}
+		
+		
+        .desc { color:#6b6b6b;}
+        .desc a {color:#0092dd;}
+        .dropdown dd, .dropdown dt, .dropdown ul {
+			margin:0px; 
+			-moz-border-radius-bottomleft:4px;
+			-moz-border-radius-bottomright:4px;
+			-moz-border-radius-topleft:4px;
+			-moz-border-radius-topright:4px;}
+		
+        .dropdown dd { position:relative; }
+        .dropdown a, .dropdown a:visited { color:#777; text-decoration:none; outline:none;}
+        .dropdown a:hover { color:#000;}
+		.dropdown dt:hover,
+		.dropdown dt input:hover{cursor:pointer}
+        .dropdown dt a:hover { color:#5d4617;}
+        .dropdown dt a {background:#fff url(/zDJS/2009/_system/images/arrow.png) no-repeat scroll right center; display:block; padding-right:20px;
+                        /*width:128px*/;-moz-border-radius-bottomleft:4px;
+			-moz-border-radius-bottomright:4px;
+			-moz-border-radius-topleft:4px;
+			-moz-border-radius-topright:4px;}
+        .dropdown dt a span {cursor:pointer; display:block; padding:5px;}
+        .dropdown dd ul { z-index:1000;background:#fff none repeat scroll 0 0; color:#C5C0B0; display:none;
+                          left:0px; padding:5px 0px; position:absolute; top:2px; width:auto; list-style:none;}
+        .dropdown span.value { display:none;}
+        .dropdown dd ul li a { padding:5px 5px 5px 7px; display:block;}
+        .dropdown dd ul li a:hover { background-color:#fff;font-weight:bold}
+
+
+/*
+Design Inspiration:
+http://www.jankoatwarpspeed.com/examples/webform_to_wizard/
+*/
+
+body { font-family:Arial, Helvetica, Sans-Serif; font-size:13px; padding-top:20px}
+h1{font-size:200%;padding:10px 0px 12px 0px;font-weight:bold;letter-spacing:1px;color:#888;float:left}
+h2{font-size:180%;padding:10px 0px 12px 0px;font-weight:bold;color:#348007}
+h3{font-size:120%;padding:10px 0px 12px 0px;font-weight:bold;color:#348007}
+.jqmWindow p{margin:7px 0px 15px 0px;}
+fieldset { border:none;width:950px;display:none}
+legend { font-size:135%; margin:0px; padding:20px 0px 5px 0px; color:#348007/*#b0232a*/; font-weight:bold;display:inline}
+ul.instructions{padding:0px 0px 30px 0px;display:block;line-height:140%}
+ul.instructions b{font-size:110%;color:#333333}
+label { display:block; margin:0px 0px 7px 0px;}
+input{ font-size:100%;padding:.4em;margin:0px}
+select{ font-size:100%;padding:.3em;margin:0px;}
+form{margin:15px 0px 40px}
+th,td,tr.header td{padding:6px;vertical-align:middle}
+tr.header td{vertical-align:top}
+tr.header td.first{border:0px}
+tr.header span,
+td.label span{border:1px solid #d9d9d9;display:block;padding:2px 6px 5px 6px;background:#e5e5e5;}
+tr.header span.colspanLeft{margin-right:-6px;border-right:0px}
+tr.header span.colspanRight{margin-left:-6px;border-left:0px;}
+th{padding:7px 6px;background:#888;color:#fff;}
+td{padding-bottom:0px}
+td p{font-size:85%;padding:6px 6px 0px 6px;line-height:normal}
+tr.header td.first,
+td.first{
+	padding-left:0px;
+}
+.toggleContainer{
+	position:relative;
+	height:28px;
+}
+.toggle{
+	position:absolute;
+	width:73px;
+}
+.toggleField0,
+.toggleField1{
+	height:5px;
+	position:absolute;
+	width:10px !important;
+	visibility:hidden;
+}
+.toggleField0{
+	left:100px;
+	top:45px;
+}
+.toggleField1{
+	left:-25px;
+}
+
+
+#main { width:960px; margin: 0px auto; border:solid 1px #b2b3b5; -moz-border-radius:10px; padding:20px; background-color:#f6f6f6;}
+#header { border-bottom:solid 1px #b2b3b5; margin: 0 0 3px 0; }
+#steps { list-style:none; width:100%; overflow:hidden; margin:0px; padding:0px;}
+#steps li {font-size:180%; float:left; padding:10px; color:#b0b1b3; width:100px;}
+#steps li span {font-size:50%; display:block; padding-top:2px;}
+#steps li.current { color:#000;}
+.secondLast{
+	padding-right:2px;
+}	
+
+/*
+Initial View
+*/
+.hide{display:none;}
+.show{display:block;}
+#ama-back.show{display:inline;}
+
+
+/*
+Step 0
+*/
+#step0 input{width:300px;margin-bottom:9px;}
+
+/*
+Step 1
+*/
+
+#step1 input{
+	width:220px;
+}
+#step1 .first input{
+	width:190px;
+}
+#step1 .secondLast{
+	width:73px;
+}
+#step1 .last{
+	padding-left:15px;
+	background:none;
+}
+
+/*
+Step 2
+*/
+#step2 td.spacer{
+	padding:0;line-height:6px;font-size:6px
+}
+#step2 td select{width:100%}
+#preConfInstDescs{display:none}
+#preConfInstDescs td{
+	padding-bottom:3px;
+}
+#preConfsInstToggle{
+	background:#888 url(/zDJS/2009/_system/images/plus_minus_icons_sprite.png) 6px -31px no-repeat;
+	padding-left:32px;
+	cursor:pointer;
+}
+#preConfsInstToggle.visible{
+	background:#888 url(/zDJS/2009/_system/images/plus_minus_icons_sprite.png) 6px 5px no-repeat;
+}
+#preConfsInstToggle.hover{
+	background-color:#8f8f8f;
+}
+/*
+Step 3
+*/
+#step3 table{margin-bottom:30px}
+#preconfsInstConfirm tbody td,
+#attendeeConfirm tbody td{padding:4px 6px 8px 12px;}
+#preconfsInstConfirm tbody td.first,
+#attendeeConfirm tbody td.first{padding:4px 6px 8px 6px;}
+#preconfsInstConfirm thead td,
+#attendeeConfirm thead td{padding-right:0px;}
+
+

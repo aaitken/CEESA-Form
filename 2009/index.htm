@@ -1,0 +1,366 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>CEESA Conference Registration</title>
+
+<link type="text/css" href="/zDJS/2009/_system/styles/meyer.reset.css" rel="stylesheet">
+<link type="text/css" href="/zDJS/2009/_system/styles/ui.theme.green.css" rel="stylesheet">
+<link type="text/css" href="/zDJS/2009/_system/styles/fg-classes.css" rel="stylesheet">
+<link type="text/css" href="/zDJS/2009/_system/styles/jqModal.css" rel="stylesheet">
+<link type="text/css" href="/zDJS/2009/_system/styles/index8.css" rel="stylesheet">
+<link type="text/css" href="/zDJS/2009/_system/styles/validationEngine.jquery.css" rel="stylesheet">
+<script type="text/javascript" src="/zDJS/2009/_system/behaviors/_jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="/zDJS/2009/_system/behaviors/jqModal.js"></script>
+<script type="text/javascript" src="/zDJS/2009/_system/behaviors/jquery.validationEngine.js"></script>
+<script type="text/javascript" src="/zDJS/2009/_system/behaviors/jquery.form.js"></script>
+<script type="text/javascript" src="/zDJS/2009/_system/behaviors/index8.js"></script>
+
+</head>
+
+<body>
+<noscript>This registration form requires a JavaScript-enabled browser. If you are seeing this message, it is because JavaScript is <i>not</i> enabled in your browser, and you will need to change your browser settings or work on another computer in order to register CEESA conference attendees. For information on required browser settings, please Google "enable javascript" along with the name of the browser you are using (Safari, Internet Explorer, etc.).</noscript>
+<div id="main" style="display:none">
+	<div id="header">
+        <h1>2010 CEESA Conference Registration</h1><a id="infoFees" class="infoFees">Info &amp; Costs</a><br style="clear:left">
+    </div>
+    <ul id="steps">
+        <li class="current" id="stepDesc0" style="padding-left:0px">1<span>School Information</span></li>
+        <li class="" id="stepDesc1">2<span>Conference Attendees</span></li>
+        <li class="" id="stepDesc2">3<span>Pre-Conferences &amp; Institutes</span></li>
+        <li class="" id="stepDesc3">4<span>Summary<br>&amp; Cost</span></li>
+        <li class="" id="stepDesc4">Confirmation<span>&nbsp;</span></li>
+    </ul>
+    <form id="pageForm" action="/zDJS/2009/_system/backend/formSubmit7.php"  method="post">
+        <fieldset id="step0" style="display:block">
+            <legend>School Information</legend>
+            <ul class="instructions">
+            	<li>Below please provide your <b>School Name</b>, the name of the <b>School Contact Person</b> and a <b>School Contact Email</b> that the CEESA office can use if needed.</li>
+                <li>Indicate if yours is a <b>Member School</b>, then choose Next to go to step 2 and register conference attendees.</li>
+            </ul>
+            <label>School Name</label>
+            <input class="validate[required] text ui-widget-content ui-corner-all" type="text" name="step0_school" id="step0_school" value="">
+            <label>School Contact Person</label>
+            <input class="validate[required,custom[onlyLetter]] text ui-widget-content ui-corner-all" type="text" name="step0_contact" id="step0_contact" value="">
+            <label>School Contact Email</label>
+            <input class="validate[required,custom[email]] text ui-widget-content ui-corner-all" type="text" name="step0_email" id="step0_email" value="">
+            <label>Is yours a Member or Associate Member school?</label>
+            <div class="toggleContainer">
+                <div class="fg-buttonset fg-buttonset-single fg-buttonset-single-first toggle" style="padding-top:1px">
+                    <span class="fg-button ama-toggle ui-state-default ui-corner-left">Yes</span>
+                    <span class="fg-button ama-toggle ui-state-default ui-corner-right">No</span>                </div>                
+                <input class="validate[required] toggleField0" type="text" value="" name="step0_member_YN" id="step0_member_YN">
+            </div>
+      </fieldset>
+        <fieldset id="step1">
+            <legend>Conference Attendees</legend>
+            <ul class="instructions">
+                <li>Provide the <b>Name</b> and <b>Email</b> of each attendee you are registering.</li>
+                <li>Also indicate if the attendee is a conference workshop <b>Presenter</b> and - if so - whether alone or with another presenter (who must be separately registered).</li>
+                <li>Tell us if this attendee is an <b>AC/AD</b> committee member.</li>
+                <li>Finally, under <b>Printout</b>, tell us  if the attendee will require a printed program ('Yes') or will download one ('No').  <i>The more 'No's, the more resources we save!</i></li>
+                <li>Use the button to the right of the table to add additional attendees one at a time.</li>
+                <li>Choose Next to go to step 3 and register attendees for Pre-Conferences and Institutes.</li>
+            </ul>
+            <table>
+            	<thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Presenter?</th>
+                        <th style="width:71px;">AC/AD?</th>
+                        <th class="secondLast">Printout?</th>
+                        <th class="last">&nbsp;</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="first"><input type="text" id="step1_name" name="step1_name" value="" class="validate[required,custom[onlyLetter]] text ui-widget-content ui-corner-all"></td>
+                        <td><input type="tex" id="step1_email" name="step1_email" value="" class="validate[required,custom[email]] text ui-widget-content ui-corner-all"></td>
+                        <td>
+                            <dl class="dropdown">
+                                <dt><a class="text ui-widget-content ui-corner-all"><input readonly="readonly" type="text" value="Choose one..." name="step1_presenting_DD" id="step1_presenting_DD" class="validate[required]"></a></dt>
+                                <dd>
+                                    <ul class="ui-widget-content ui-corner-all">
+                                        <li><a>No<span class="value">No</span></a></li>
+                                        <li><a>Yes - Alone<span class="value">Yes - Alone</span></a></li>
+                                        <li><a>Yes - Accompanied<span class="value">Yes - Accompanied</span></a></li>
+                                    </ul>
+                                </dd>
+                            </dl>                    
+                      </td>
+                        <td>
+                            <div class="toggleContainer">
+                                <div class="fg-buttonset fg-buttonset-single fg-buttonset-single-first toggle" style="padding-top:1px">
+                                    <span class="fg-button ama-toggle ui-state-default ui-corner-left">Yes</span>
+                                    <span class="fg-button ama-toggle ui-state-default ui-corner-right">No</span>                                </div>                
+                                <input type="text" id="step1_acad_yn" name="step1_acad_yn" value="" class="validate[required] toggleField1">
+                            </div>
+                   	  </td>
+                        <td class="secondLast">
+                            <div class="toggleContainer">
+                                <div class="fg-buttonset fg-buttonset-single fg-buttonset-single-first toggle" style="padding-top:1px">
+                                    <span class="fg-button ama-toggle ui-state-default ui-corner-left">Yes</span>
+                                    <span class="fg-button ama-toggle ui-state-default ui-corner-right">No</span>                                </div>                
+                                <input type="text" id="step1_program_yn" name="step1_program_yn" value="" class="validate[required] toggleField1">
+                            </div>
+                   	  </td>
+                        <td class="last">
+                            <b id="ama-addNextAttendee" class="fg-button ui-state-default ui-priority-secondary ui-corner-all">Add Next Attendee</b>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+        <fieldset id="step2">
+            <legend>Pre-Conferences &amp; Institutes</legend>
+            <ul class="instructions">
+            	<li>Please select the Pre-Conferences and/or Institutes that each of your attendees would like to attend.</li>
+                <li>Note that Pre-Conferences on <b>Wednesday</b> or <b>Thursday</b> require registration and a supplementary payment.</li>
+                <li>Attendees may choose to register for <b>Friday</b> and <b>Saturday</b> Institutes, or attend non-institute sessions throughout these days.</li>
+                <li>Choose Next to go to step 4 and review your registration information.</li>
+           	</ul>
+            <table id="preConfInstHeader">
+            	<tr class="header">
+                    <td rowspan="2" class="first"><a id="preConfsInstToggle"><b style="text-decoration:underline">View</b><br>Pre-Conference and<br>Institute Listings</a></td>
+                  <td colspan="2" style="padding-bottom:0px;padding-top:0px"><span>Pre-Conferences</span></td>
+                    <td colspan="2" class="last" style="padding-bottom:0px;padding-top:0px"><span>Institutes</span></td>
+                </tr>
+            	<tr class="header">
+                   <!-- <td class="first">&nbsp;</td> -->
+                    <td class="normal"><span>Wednesday</span></td>
+                	<td class="normal"><span>Thursday</span></td>
+                    <td class="normal"><span>Friday</span></td>
+                	<td class="normal last"><span>Saturday</span></td>
+                </tr>
+			</table>
+            <div id="preConfInstDescs">
+                <table>
+                    <tr class="header">
+                        <td class="first">&nbsp;</td>
+                        <td class="normal">
+                            <p><b>Bonnie Campbell Hill</b> Classroom-Based Assessment</p>
+                        </td>
+                        <td class="normal">
+                            <p><b>Bonnie Campbell Hill</b> Developmental Continuums</p>
+                            <p><b>Fran Prolman</b> Instructional Strategies</p>
+                            <p><b>Jim Schmutz</b> Coaching Principles</p>
+                            <p>( <b>CIS Accreditation</b><i> Register directly with CIS. Info and form available at</i> <a href="http://www.ceesa.org/conference_2010.html#CIS" target="_blank">ceesa.org</a>. )</p>
+                        </td>
+                        <td class="normal">
+                            <p><b>Bonnie Campbell Hill</b> Adding Student Voice</p>
+                            <p><b>Fran Prolman</b> Teaching for Deep Understanding</p>
+                            <p><b>Tim Burns</b> Brain Basics</p>
+                            <p><b>Mike Ribble</b> Digital Citizenship</p>
+                            <p><b>Erma Anderson</b> Standards-Based Math 1</p>
+                         </td>
+                        <td class="normal last">
+                            <p><b>Bonnie Campbell Hill</b> Literature Circles</p>
+                            <p><b>Fran Prolman</b> Transformational Leadership</p>
+                            <p><b>Tim Burns</b> It's About Balance</p>
+                            <p><b>Mike Ribble</b> Take a Village</p>
+                            <p><b>Erma Anderson</b> Standards-Based Math 2</p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <table id="attendeeChoices">
+               <thead>
+                    <tr>
+                        <th colspan="5">Attendee Choices</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="first">&nbsp;</td>
+                        <td class="normal">
+                            <dl class="dropdown">
+                                <dt><a class="text ui-widget-content ui-corner-all"><input readonly="readonly" type="text" value="" name="step2_wednesday" id="step2_wednesday" class="jsPreconf"></a></dt>
+                                <dd>
+                                    <ul class="ui-widget-content ui-corner-all">
+                                        <li><a>Bonnie Campbell Hill<span class="value">Bonnie Campbell Hill</span></a></li>
+                                        <li><a><i>None</i><span class="value">&nbsp;</span></a></li>
+                                    </ul>
+                                </dd>
+                            </dl>   
+                      </td>
+                        <td class="normal">
+                            <dl class="dropdown">
+                                <dt><a class="text ui-widget-content ui-corner-all"><input readonly="readonly" type="text" value="" name="step2_thursday" id="step2_thursday" class="jsPreconf"></a></dt>
+                                <dd>
+                                    <ul class="ui-widget-content ui-corner-all">
+                                        <li><a>Bonnie Campbell Hill<span class="value">Bonnie Campbell Hill</span></a></li>
+                                        <li><a>Fran Prolman<span class="value">Fran Prolman</span></a></li>
+                                        <li><a>Jim Schmutz<span class="value">Jim Schmutz</span></a></li>
+                                        <li><a><i>None</i><span class="value">&nbsp;</span></a></li>
+                                    </ul>
+                                </dd>
+                            </dl>   
+                      </td>
+                        <td class="normal">
+                            <dl class="dropdown">
+                                <dt><a class="text ui-widget-content ui-corner-all"><input readonly="readonly" type="text" value="" name="step2_friday" id="step2_friday"></a></dt>
+                                <dd>
+                                    <ul class="ui-widget-content ui-corner-all">
+                                        <li><a>Bonnie Campbell Hill<span class="value">Bonnie Campbell Hill</span></a></li>
+                                        <li><a>Fran Prolman<span class="value">Fran Prolman</span></a></li>
+                                        <li><a>Tim Burns<span class="value">Tim Burns</span></a></li>
+                                        <li><a>Mike Ribble<span class="value">Mike Ribble</span></a></li>
+                                        <li><a>Erma Anderson<span class="value">Erma Anderson</span></a></li>
+                                        <li><a><i>None</i><span class="value">&nbsp;</span></a></li>
+                                    </ul>
+                                </dd>
+                            </dl> 
+                      </td>
+                         <td  class="normal last">
+                            <dl class="dropdown">
+                                <dt><a class="text ui-widget-content ui-corner-all"><input readonly="readonly" type="text" value="" name="step2_saturday" id="step2_saturday"></a></dt>
+                                <dd>
+                                    <ul class="ui-widget-content ui-corner-all">
+                                        <li><a>Bonnie Campbell Hill<span class="value">Bonnie Campbell Hill</span></a></li>
+                                        <li><a>Fran Prolman<span class="value">Fran Prolman</span></a></li>
+                                        <li><a>Tim Burns<span class="value">Tim Burns</span></a></li>
+                                        <li><a>Mike Ribble<span class="value">Mike Ribble</span></a></li>
+                                        <li><a>Erma Anderson<span class="value">Erma Anderson</span></a></li>
+                                        <li><a><i>None</i><span class="value">&nbsp;</span></a></li>
+                                    </ul>
+                                </dd>
+                            </dl>                      
+                      </td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+        <fieldset id="step3">
+            <legend>Registration Summary &amp; Cost</legend>
+            <ul class="instructions">
+            	<li>Please review the registration information you have provided and are about to send.</li>
+                <li>Use the Back button to return to any of the previous steps and make changes.</li>
+                <li>Otherwise, choose <b>Confirm and Send</b> to deliver your registration to the CEESA office and receive an emailed version of this page for your records.</li>
+            </ul>
+            <table id="schoolConfirm">
+            	<thead>
+                	<tr><th colspan="2">School Information</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td class="first label"><span>School Name</span></td><td class="catcher">&nbsp;</td></tr>
+                    <tr><td class="first label"><span>School Contact Person</span></td><td class="catcher">&nbsp;</td></tr>
+                    <tr><td class="first label"><span>School Contact Email</span></td><td class="catcher">&nbsp;</td></tr>
+                    <tr><td class="first label"><span>Member School</span></td><td class="catcher">&nbsp;</td></tr>
+                </tbody>
+            </table>
+            <table id="attendeeConfirm">
+            	<thead>
+                    <tr>
+                        <th colspan="5">Conference Attendeess</th>
+                    </tr>
+                    <tr class="header">
+                        <td class="first"><span>Name</span></td>
+                        <td><span>Email</span></td>
+                        <td><span>Presenting</span></td>
+                         <td><span>AC/AD</span></td>
+                        <td><span>Program</span></td>
+                    </tr>
+                </thead>
+                <tbody class="stripe">
+                   <!--<tr>
+                        <td colspan="4">&nbsp;</td>>
+                    </tr>-->
+                </tbody>
+            </table>
+            <table id="preconfsInstConfirm">
+            	<thead>
+                <tr>
+                    <th colspan="5">Pre-Conferences &amp; Institutes</th>
+                </tr>
+                <tr class="header">
+                    <td class="first">&nbsp;</td>
+                    <td><span>Wednesday</span></td>
+                    <td><span>Thursday</span></td>
+                    <td><span>Friday</span></td>
+                    <td><span>Saturday</span></td>
+                </tr>
+                </thead>
+                <tbody class="stripe">
+                    <!--<tr>
+                        <td colspan="5">&nbsp;</td>>
+                    </tr>-->
+                </tbody>
+            </table>
+            <table id="totalCost">
+            	<thead>
+                    <tr>
+                        <th style="width:15%;background:#000"><b>Total Estimated Cost</b></th>
+                        <th style="width:85%;background:#f6f6f6">&nbsp;</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td colspan="2">&#8364; <input name="cost" id="cost" value="" readonly="readonly"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="line-height:140%"><i>You are registering <span id="step3_attendeeCountCatcher">&nbsp;</span> people at a total estimated cost of <span id="step3_totalCostCatcher">&nbsp;</span> Euros. This amount is an estimate only, and does not reflect some possible minor changes. Your final invoice will be issued by the CEESA office. <span id="totalCostLink">(See <a class="infoFees"></i>Info &amp; Costs</a> <i>for cost breakdowns.)</span></i></td>
+                    </tr>
+                </tbody>
+            </table>
+        </fieldset>
+        <fieldset id="step4">
+            <legend>Confirmation</legend>
+            <ul id="responseTarget" class="instructions"></ul>
+        </fieldset>
+        <button id="ama-back" class="fg-button ui-state-default ui-priority-secondary ui-corner-all hide" type="submit" name="submit">&laquo; Back</button>
+    	<button id="ama-next" class="fg-button ui-state-default ui-priority-primary ui-corner-all" type="submit" name="submit">Next &raquo;</button>
+		<!--<p style="margin-top:12px;"><input type="submit" name="submit" value="Submit" /></p>-->
+	<input type="hidden" name="successMessage" value="Thank you!" />
+	<input type="hidden" name="errorMessage" value="Your email was not sent due to a system error!" />
+    </form>
+</div>
+<p id="byline" style="display:none;width:960px;position:relative;text-align:right;color:#b0b1b3;margin:7px auto;">Design by <a style="color:inherit" href="http://alexaitken.net" target="_blank">AlexAitken.net</a></p>
+	
+<div id="dialog" class="jqmWindow">
+<h2>2010 CEESA Conference Registration Form</h2>
+<p>This form has four steps. On each of the first three steps please provide the requested information, then choose Next to continue. You may move backward or forward through the form without losing any of your entered information. After reviewing and submitting your registration information on step 4, you will receive a confirmation receipt via email at the School Contact Email address you provide in step 1. The CEESA office will follow up with an invoice.</p>
+<h3>Costs</h3>
+<p>Total Cost depends on your school's member status, your attendees, and your Pre-Conference registrations.<br>There is a discount of  &#8364;100 for presenters; for those presenting with others the discount is pro-rated. </p>
+
+<table id="costs">
+	<thead>
+        <tr>
+            <th>School Type</th>
+            <th>Cost per Attendee</th>
+            <th>Pre-Conferences</th>
+        </tr>
+    </thead>
+    <tbody class="stripe">
+        <tr>
+            <td>Member &amp; Associate Member</td>
+            <td>
+            	<b>Base cost:</b> &#8364;350<br>
+            </td>
+            <td>
+            	<b>Additional cost:</b> &#8364;100 per
+            	attendee per Pre-Conference
+            </td>
+        </tr>
+        <tr>
+            <td>Non-Member</td>
+            <td><b>Base cost:</b> &#8364;400</td>
+            <td>
+            	<b>Additional cost:</b> &#8364;125 per
+            	attendee per Pre-Conference 
+            
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p style="margin-top:30px"><button id="ama-go" class="fg-button ui-state-default ui-priority-primary ui-corner-all">Start</button></p>
+</div>
+
+<div id="loader" class="jqmLoaderWindow">
+<img src="/zDJS/2009/_system/images/ajax-loader.gif">
+</div>
+
+<div 
+
+</body>
+</html>
