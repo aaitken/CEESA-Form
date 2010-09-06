@@ -114,7 +114,7 @@
 			
              
             // Send Email   
-			$to = strip_tags($_POST['step0_email']) . ", dsmith@mapping.com";
+			$to = strip_tags($_POST['step0_email']) . ", aaitken@alexaitken.net";
 			//$to = 'haddnin@gmail.com, aitken.alexander@gmail.com';
 			//$to = 'dsmith@mapping.com, aitken.alexander@gmail.com';
 			
