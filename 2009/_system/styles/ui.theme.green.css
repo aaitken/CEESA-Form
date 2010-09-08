@@ -19,16 +19,16 @@
 
 /* Interaction states
 ----------------------------------*/
-.ui-state-default, .ui-widget-content .ui-state-default { border: 1px solid #327E04; background: #327E04 url(/zDJS/2009/_system/images/ui-bg_highlight-soft_25_327E04_1x100.png) 50% 50% repeat-x; font-weight: bold; color: #ffffff; outline: none; }
-/*ama*/.fg-buttonset .ui-state-default{ border: 1px solid #777777; background: #111111 url(/zDJS/2009/_system/images/ui-bg_glass_40_111111_1x400.png) 50% 50% repeat-x; font-weight: normal; color: #e3e3e3; outline: none; }
-/*ama*/.ama-remove .ui-state-default{ border: 1px solid #700906; background: #111111 url(/zDJS/2009/_system/images/ui-bg_highlight-soft_25_801a07_1x29.png) 50% 50% repeat-x; font-weight: normal; color: #ffffff; outline: none; }
+.ui-state-default, .ui-widget-content .ui-state-default { border: 1px solid #327E04; background: #327E04 url(/confregistration/2009/_system/images/ui-bg_highlight-soft_25_327E04_1x100.png) 50% 50% repeat-x; font-weight: bold; color: #ffffff; outline: none; }
+/*ama*/.fg-buttonset .ui-state-default{ border: 1px solid #777777; background: #111111 url(/confregistration/2009/_system/images/ui-bg_glass_40_111111_1x400.png) 50% 50% repeat-x; font-weight: normal; color: #e3e3e3; outline: none; }
+/*ama*/.ama-remove .ui-state-default{ border: 1px solid #700906; background: #111111 url(/confregistration/2009/_system/images/ui-bg_highlight-soft_25_801a07_1x29.png) 50% 50% repeat-x; font-weight: normal; color: #ffffff; outline: none; }
 .ui-state-default a { color: #ffffff; text-decoration: none; outline: none; }
 .ui-state-hover, .ui-widget-content .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus { border: 1px solid #327E04; background: #5A9D1A url(images/ui-bg_highlight-soft_25_5A9D1A_1x100.png) 50% 50% repeat-x; font-weight: bold; color: #ffffff; outline: none; }
-/*ama*/.fg-buttonset .ui-state-hover{ border: 1px solid #000000; background: #1c1c1c url(/zDJS/2009/_system/images/ui-bg_glass_55_1c1c1c_1x400.png) 50% 50% repeat-x; font-weight: normal; color: #ffffff; outline: none; }
+/*ama*/.fg-buttonset .ui-state-hover{ border: 1px solid #000000; background: #1c1c1c url(/confregistration/2009/_system/images/ui-bg_glass_55_1c1c1c_1x400.png) 50% 50% repeat-x; font-weight: normal; color: #ffffff; outline: none; }
 /*ama*/.ama-remove .ui-state-hover{ opacity: .6; filter:Alpha(Opacity=6);}
 .ui-state-hover a { color: #ffffff; text-decoration: none; outline: none; }
-.ui-state-active, .ui-widget-content .ui-state-active { border: 1px solid #c4c5c3; background: #ffffff url(images/ui-bg_diagonals-small_100_f0efea_40x40.png) 50% 50% repeat; font-weight: bold; color: #403D38; outline: none; }
-/*ama*/.fg-buttonset .ui-state-active{ border: 1px solid #aaaaaa; background: #ffffff url(/zDJS/2009/_system/images/ui-bg_flat_65_ffffff_40x100.png) 50% 50% repeat-x; font-weight: normal; color: #222222; outline: none; }
+.ui-state-active, .ui-widget-content .ui-state-active { border: 1px solid #c4c5c3; background: #ffffff url(images/ui-bg_diagonals-small_100_f0efea_40x40.png) 50% 50% repeat; font-weight: bold; color: #403D38; outline: none;}
+/*ama*/.fg-buttonset .ui-state-active{ border: 1px solid #aaaaaa; background: #ffffff url(/confregistration/2009/_system/images/ui-bg_flat_65_ffffff_40x100.png) 50% 50% repeat-x; font-weight: normal; color: #222222; outline: none; }
 /*ama*/.ama-remove .ui-state-active{ border: 1px solid #700906; background: #fff; font-weight: normal; color: #801a07; outline: none; }
 .ui-state-active a { color: #403D38; outline: none; text-decoration: none; }
 

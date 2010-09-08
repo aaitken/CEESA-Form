@@ -1,9 +1,12 @@
 var fgButtons,
+    dropdown,
+    validation,
 	wizard,
 	shared,
+    schoolInfo,
 	conferenceAttendees,
 	preConfsInst,
-	validation;
+	summary;
 
 //Filament Group Buttons
 fgButtons={
@@ -31,6 +34,7 @@ fgButtons={
 		
 	}
 }
+
 dropdown={
 	init:function(){
 		$(".dropdown dt a").each(function(){
@@ -149,6 +153,7 @@ validation={
 		return this;//returns the validate Step oblect for chaining
 	}
 }
+
 wizard={
 	init:function(){
 		var fieldsets,
@@ -276,6 +281,7 @@ wizard={
 		backButton.click(function(e){navButtonClick(e.target,e)})
 	}
 }
+
 shared={
 	assignIds:function(step){//assign sequential IDs to form elements under Attendees and PreConf./Inst. tabs
 		var rowIterator=function(rows,columnPrefixes){
@@ -306,9 +312,11 @@ shared={
 		}
 	}
 }
+
 schoolInfo={
 
 }
+
 conferenceAttendees={
 	newRow:{}, //cloned first row of virgin Conf. Attendees table, used and modified in Add Next functions
 	init:function(){}, //initiation function for the AAttendees tab
@@ -388,6 +396,7 @@ conferenceAttendees={
 		};
 	}
 }
+
 preConfsInst={
 	addRow:function(){}, //function called from conferenceAttendees that adds attendee row to Pre-conf table on attendee add under step 2
 	emptyAttendeeRow:{},
@@ -430,6 +439,7 @@ preConfsInst={
 	}
 	
 }
+
 summary={
 	SchoolCost:function(){
 		var that=this;
