@@ -3,7 +3,7 @@
 			
 			// Prepare the Body 
 			$message = '<html><body>';
-			$message .= "<span style='font-weight:bold;'>2010 CEESA Conference Registration Form</span>";
+			$message .= "<span style='font-weight:bold;'>CEESA Conference Registration Form</span>";
 			
 			// School Information
 			$message .= '<table border="0" cellspacing="5" style="margin-bottom:30px;">';
